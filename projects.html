@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — Priyanshu Bharti</title>
+<meta name="description" content="A selection of projects by Priyanshu Bharti, Full-Stack Developer." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">PB</span>
+      <span class="logo-name">Priyanshu Bharti</span>
+    </a>
+
+    <nav class="nav" id="siteNav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link active">Projects</a>
+      <a href="experience.html" class="nav-link">Experience</a>
+      <a href="opensource.html" class="nav-link">Open Source</a>
+      <a href="community.html" class="nav-link">Community</a>
+      <a href="faq.html" class="nav-link">FAQ</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-pill-dark">Contact</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Projects</span>
+    <h1 class="section-title">Things I've built</h1>
+    <p class="section-sub">A mix of full-stack apps, tools and experiments. Descriptions below are placeholders — swap in your real project details.</p>
+  </div>
+</section>
+
+<!-- ============ PROJECTS GRID ============ -->
+<section class="section">
+  <div class="container">
+    <div class="projects-grid reveal-group">
+
+      <article class="card project-card">
+        <div class="project-card-thumb-wrap">
+          <img class="project-card-thumb" src="assets/images/agent-guard-thumb.jpg" alt="Agent Guardrail dashboard screenshot" loading="lazy" />
+        </div>
+        <div class="project-card-icon">01</div>
+        <h3>Agent Guardrail</h3>
+        <p>An independent safety layer that sits between an AI agent and the tools it can call — enforcing declarative, fail-closed policies on every tool call before it executes. Think "sudo + firewall for AI agents."</p>
+        <div class="tag-row">
+          <span class="tag-pill">Go</span>
+          <span class="tag-pill">Docker</span>
+          <span class="tag-pill">YAML Policies</span>
+        </div>
+        <div class="project-links">
+          <a href="https://agent-guard-v2uw.onrender.com" target="_blank" rel="noopener">Live demo <span class="arrow-shift">→</span></a>
+          <a href="https://github.com/Priyanshubhartistm/agent-guard" target="_blank" rel="noopener">GitHub <span class="arrow-shift">→</span></a>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-card-thumb-wrap">
+          <img class="project-card-thumb" src="assets/images/project-02-thumb.jpg" alt="Project Placeholder Two thumbnail" loading="lazy" />
+        </div>
+        <div class="project-card-icon">02</div>
+        <h3>Project Placeholder Two</h3>
+        <p>[Placeholder] One or two sentences describing the problem this project solves and how you approached it.</p>
+        <div class="tag-row">
+          <span class="tag-pill">TypeScript</span>
+          <span class="tag-pill">Express</span>
+          <span class="tag-pill">PostgreSQL</span>
+        </div>
+        <div class="project-links">
+          <a href="#">Live demo <span class="arrow-shift">→</span></a>
+          <a href="#">GitHub <span class="arrow-shift">→</span></a>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-card-thumb-wrap">
+          <img class="project-card-thumb" src="assets/images/coffee-website-thumb.jpg" alt="Brew & Bean coffee shop website screenshot" loading="lazy" />
+        </div>
+        <div class="project-card-icon">03</div>
+        <h3>Brew &amp; Bean</h3>
+        <p>A modern, responsive coffee shop landing page — animated hero, menu, process and gallery sections, built with React for a fast, polished browsing experience.</p>
+        <div class="tag-row">
+          <span class="tag-pill">React</span>
+          <span class="tag-pill">JavaScript</span>
+          <span class="tag-pill">CSS3</span>
+        </div>
+        <div class="project-links">
+          <a href="https://priyanshubhartistm.github.io/coffee-website/" target="_blank" rel="noopener">Live demo <span class="arrow-shift">→</span></a>
+          <a href="https://github.com/Priyanshubhartistm/coffee-website" target="_blank" rel="noopener">GitHub <span class="arrow-shift">→</span></a>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-card-thumb-wrap">
+          <img class="project-card-thumb" src="assets/images/bitcoin-prices-thumb.jpg" alt="Bitcoin · USD dashboard screenshot" loading="lazy" />
+        </div>
+        <div class="project-card-icon">04</div>
+        <h3>Bitcoin · USD</h3>
+        <p>A live BTC/USD dashboard with candlestick charts (1D/7D/30D/1Y), on-chain metrics from mempool.space (block height, halving countdown, fee estimates), and rate-limit-aware polling with offline/stale/error states on every card.</p>
+        <div class="tag-row">
+          <span class="tag-pill">React</span>
+          <span class="tag-pill">TypeScript</span>
+          <span class="tag-pill">TanStack Query</span>
+        </div>
+        <div class="project-links">
+          <a href="https://completion-task.vercel.app/" target="_blank" rel="noopener">Live demo <span class="arrow-shift">→</span></a>
+          <a href="https://github.com/Priyanshubhartistm/bitcoin-prices" target="_blank" rel="noopener">GitHub <span class="arrow-shift">→</span></a>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-card-thumb-wrap">
+          <img class="project-card-thumb" src="assets/images/crypto-tracker-thumb.jpg" alt="Cryptoverse cryptocurrency tracker screenshot" loading="lazy" />
+        </div>
+        <div class="project-card-icon">05</div>
+        <h3>Cryptoverse</h3>
+        <p>A real-time cryptocurrency tracking platform powered by the CoinGecko API — live prices, market caps, interactive price-history charts, exchange insights and crypto news, built with React + Vite.</p>
+        <div class="tag-row">
+          <span class="tag-pill">React</span>
+          <span class="tag-pill">Vite</span>
+          <span class="tag-pill">CoinGecko API</span>
+        </div>
+        <div class="project-links">
+          <a href="https://priyanshubhartistm.github.io/Cryptocurrency-Tracker/" target="_blank" rel="noopener">Live demo <span class="arrow-shift">→</span></a>
+          <a href="https://github.com/Priyanshubhartistm/Cryptocurrency-Tracker" target="_blank" rel="noopener">GitHub <span class="arrow-shift">→</span></a>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-card-thumb-wrap">
+          <img class="project-card-thumb" src="assets/images/project-06-thumb.jpg" alt="Project Placeholder Six thumbnail" loading="lazy" />
+        </div>
+        <div class="project-card-icon">06</div>
+        <h3>Project Placeholder Six</h3>
+        <p>[Placeholder] One or two sentences describing the problem this project solves and how you approached it.</p>
+        <div class="tag-row">
+          <span class="tag-pill">JavaScript</span>
+          <span class="tag-pill">Python</span>
+          <span class="tag-pill">Git</span>
+        </div>
+        <div class="project-links">
+          <a href="#">Live demo <span class="arrow-shift">→</span></a>
+          <a href="#">GitHub <span class="arrow-shift">→</span></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="logo-mark">PB</span>
+        <span class="logo-name">Priyanshu Bharti</span>
+      </div>
+      <p class="footer-tagline">Full-Stack Developer building clean, fast, reliable products.</p>
+    </div>
+
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Site</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <a href="opensource.html">Open Source</a>
+        <a href="community.html">Community</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Elsewhere</h4>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:bhartipriyanshum@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; 2026 Priyanshu Bharti. All rights reserved.</p>
+      <p class="footer-note">Built with HTML, CSS &amp; JS.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
