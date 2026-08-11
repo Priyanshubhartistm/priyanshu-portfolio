@@ -1,6 +1,6 @@
 # Priyanshu Bharti — Developer Portfolio
 
-A multi-page personal portfolio site for **Priyanshu Bharti**, a Full-Stack Developer based in Bihar, India. Built with plain HTML, CSS and JavaScript — no framework, no build step.
+A multi-page personal portfolio site for **Priyanshu Bharti**, a Full-Stack Developer based in India. Built with plain HTML, CSS and JavaScript — no framework, no build step.
 
 **Live demo:** _[add your deployed URL here, e.g. GitHub Pages / Vercel / Netlify link]_
 
