@@ -1248,6 +1248,20 @@ a:hover .arrow-shift,
   flex-shrink: 0;
 }
 
+.oss-org-logo-fallback {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background: rgba(26, 26, 255, 0.18);
+  color: var(--white);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
 .oss-repo {
   font-family: var(--font-mono);
   font-size: 0.95rem;
