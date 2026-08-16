@@ -2,8 +2,7 @@
 
 A multi-page personal portfolio site for **Priyanshu Bharti**, a Full-Stack Developer based in India. Built with plain HTML, CSS and JavaScript — no framework, no build step.
 
-**Live demo:** _[add your deployed URL here, e.g. GitHub Pages / Vercel / Netlify link]_
-
+**Live demo:** https://priyanshubhartistm.github.io/priyanshu-portfolio/
 ## Pages
 
 Each nav item is a real, separate HTML page (not a single-page scroll):
